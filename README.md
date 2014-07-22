@@ -93,10 +93,3 @@ The *ptrig1* block will trigger rnd and logger1 in this order.
 
 The *rnd* computation block has an output port rnd which is connected to the *hexdump* interaction block which prints the value of this output port to stdout.
 The output port is also connected to *i_block* fifo1, a buffer with an output port *r2*.
-
-###License
-Same as Microblx Framework (LGPLv2).
-
-Authors of *Quick start guide*: Evert Jans, Lin Zhang
-
-
