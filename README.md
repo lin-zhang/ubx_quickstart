@@ -44,9 +44,9 @@ Create a source script:
 	$ export UBX_MODULES=$HOME/microblx/install/lib/ubx
 	$ export CMAKE_PREFIX_PATH=$HOME/microblx/install/share/ubx/cmake' > sourceme.sh
 
-Source the script automatically in ~/.bashrc:
+To automatically source the microblx envrionment, add the following line in ~/.bashrc:
 
-	$ echo '. /path/to/sourceme.sh'
+	. /path/to/sourceme.sh
 
 Make microblx:
 
