@@ -36,15 +36,15 @@ To get the latest microblx features branch to dev:
 	$ cd microblx
 	$ git checkout dev
 
-Create a source script:
+Create a source script (change the path if necessary, $HOME=/home/username):
 
 	$ cd ..
-	$ echo 'export UBX_ROOT=$HOME/microblx/microblx
+	$ echo 'export UBX_ROOT=$HOME/microblx
 	$ source $UBX_ROOT/env.sh
 	$ export UBX_MODULES=$HOME/microblx/install/lib/ubx
 	$ export CMAKE_PREFIX_PATH=$HOME/microblx/install/share/ubx/cmake' > sourceme.sh
 
-To automatically source the microblx envrionment, add the following line in ~/.bashrc:
+To automatically source the microblx envrionment, add the following line in ~/.bashrc (change the path to yours):
 
 	. /path/to/sourceme.sh
 
