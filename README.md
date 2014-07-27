@@ -29,12 +29,7 @@ Get some programs from aptitude:
 
 Clone the microblx repository:
 
-	$ git clone https://github.com/haianos/microblx
-
-To get the latest microblx features branch to dev:
-
-	$ cd microblx
-	$ git checkout dev
+	$ git clone https://github.com/UbxTeam/microblx
 
 Create a source script (change the path if necessary, $HOME=/home/username):
 
